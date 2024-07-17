@@ -21,9 +21,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ge_bi
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/xxx
+    username: xxx
+    password: xxx
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
@@ -118,8 +118,8 @@ knife4j:
           - com.yupi.springbootinit.controller
 yuapi:
   client:
-    access-key: i8ts91x1sza1o9ktu655c2emeeqsf9pr
-    secret-key: oeti29nu6miqjvtouvjlabtlqcwmr5lf
+    access-key: xxx
+    secret-key: xxx
 alipay:
   app-id:
   app-private-key:
