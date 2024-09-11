@@ -21,21 +21,21 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ge_bi
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/
+    username: 
+    password: 
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
     database: 1
     host: localhost
-    port: 6379
+    port: 
     timeout: 5000
   rabbitmq:
     addresses: localhost
-    port: 5672
-    password: guest
-    username: guest
+    port: 
+    password: 
+    username: 
     listener:
       direct:
         acknowledge-mode: manual
@@ -45,13 +45,6 @@ spring:
           initial-interval: 5000
           multiplier: 1.5
           max-interval: 60000
-  #    password: 123456
-  # Elasticsearch 配置
-  # todo 需替换配置，然后取消注释
-  #  elasticsearch:
-  #    uris: http://localhost:9200
-  #    username: root
-  #    password: 123456
   # 文件上传
   servlet:
     multipart:
@@ -89,5 +82,5 @@ knife4j:
           - com.yupi.springbootinit.controller
 yuapi:
   client:
-    access-key: i8ts91x1sza1o9ktu655c2emeeqsf9pr
-    secret-key: oeti29nu6miqjvtouvjlabtlqcwmr5lf
+    access-key: 
+    secret-key: 
